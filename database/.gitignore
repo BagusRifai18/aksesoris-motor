@@ -1,1 +1,7 @@
-*.sqlite*
+# Laravel .gitignore
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/.env
+/database/*.sqlite
